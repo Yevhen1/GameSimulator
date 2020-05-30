@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.viatoris.gamesimulator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_brain3_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_brain3_1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SelectColorActivity">
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.example.viatoris.gamesimulator.MainActivity" />-->
+        </activity>
+        <activity android:name=".SelectIconActivity">
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.example.viatoris.gamesimulator.MainActivity" />-->
+        </activity>
+        <activity android:name=".RememberNumbersActivity">
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.example.viatoris.gamesimulator.MainActivity" />-->
+        </activity>
+        <activity android:name=".DigitActivity">
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.example.viatoris.gamesimulator.MainActivity" />-->
+        </activity>
+        <activity android:name=".FastSelectIconActivity">
+            <!--<meta-data-->
+                <!--android:name="android.support.PARENT_ACTIVITY"-->
+                <!--android:value="com.example.viatoris.gamesimulator.MainActivity" />-->
+        </activity>
+        <activity android:name=".LogoActivity" />
+        <activity android:name=".DescriptionActivity" />
+        <activity android:name=".DialogFinish" />
+        <activity android:name=".MenuActivity"></activity>
+    </application>
+
+</manifest>
