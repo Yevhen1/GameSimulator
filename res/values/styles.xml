@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="colorControlNormal">#aaaaaa</item>-->
+        <item name="colorPrimary">#632983</item>
+        <item name="colorPrimaryDark">#0e157b</item>
+        <item name="colorAccent">#e0cfe2</item>
+        <item name="android:navigationBarColor">#2B2B2B</item>
+        <item name="android:textColor">#3C3F41</item>
+        <item name="android:colorControlNormal">#e0cfe2</item>
+    </style>
+
+    <style name="selectButtonStyle">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:minWidth">88dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:background">#aaa</item>
+        <item name="android:onClick">onToggleButtonClick</item>
+        <item name="android:textColor">#2B2B2B</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:radius">10dip</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="darkTextColorButton">
+        <item name="android:textColor">#2B2B2B</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

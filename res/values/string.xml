@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="main_title_activity">Brain Training</string>-->
+    <string name="main_title_activity">Brain Trainer</string>
+    <string name="digit_title_activity">Digit</string>
+    <string name="select_color_title_activity">Select Color</string>
+    <string name="remember_numbers_title_activity">Remember Number</string>
+    <string name="select_icon_title_activity">Select Icon</string>
+    <string name="fast_select_icon_title_activity">Description</string>
+
+    <string name="rule_select_color">rule select color</string>
+    <string name="rule_remember_number">rule remember number</string>
+    <string name="rule_select_icon">rule select icon</string>
+    <string name="rule_digit_sum">rule digit sum</string>
+</resources>
